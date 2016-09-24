@@ -1,0 +1,491 @@
+@font-face {
+    font-family: ProximaNova;
+    src: url(../fonts/ProximaNova-Reg.otf);
+    
+}
+@font-face {
+    font-family: ProximaNovaLight;
+    src: url(../fonts/ProximaNova-Light.otf);
+}
+@font-face {
+    font-family: ProximaNovaBold;
+    src: url(../fonts/ProximaNova-Bold.otf);
+}
+
+body{
+    margin: 0px;
+    font-family: "ProximaNova";
+    font-size: 15px;
+}
+.header-main{
+}
+.top-header{
+    padding-top: 20px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+.adres-info{
+    font-size: 18px;
+    font-family: "ProximaNova";
+    color: rgb(105, 100, 100);
+    line-height: 1.2;
+    text-align: center;
+    display: inline-block;
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.site-name{
+    display: inline-block;
+    width: 200px;
+    font-family: "ProximaNovaLight";
+    color: rgb(38, 38, 38);   
+    line-height: 0.8;
+    text-align: center;
+    height: auto;
+    margin-left: 150px;
+    float: left;
+    margin-top: 10px;
+    
+
+}
+.header-main .header-slide{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.site-name .top{
+    margin: 0px;
+    font-size: 40px;
+    margin: 0px;
+    margin-bottom: 7px;
+}
+.site-name .bottom{
+    font-size: 29px;
+    margin: 0px;
+}
+.head-contact{
+    display: inline-block;
+    width: 240px;
+    margin-left: 140px;
+    margin-top: 5px;
+}
+.phone-contact .number-phone p{
+    font-size: 19px;
+    font-family: "ProximaNova";
+    color: rgb(216, 80, 59);
+    line-height: 1.2;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    text-align: right;
+}
+.phone-contact .phone-icon{
+    display: inline-block;
+    float: left;
+    margin-left: 20px;
+}
+.phone-contact .number-phone{
+    display: inline-block;
+    float: left;
+    text-align: right;
+}
+.social-buttons{
+    float: left;
+    display: inline-block;
+    width: 100%;
+    margin-top: 15px;
+}
+.social-buttons a{
+    margin-right: 14px;
+    z-index:30;
+    position: relative;
+}
+
+.soc-vk{
+    background: url('../images/icons/icon-vk.png');
+    display: inline-block;
+    background-repeat: no-repeat;
+    height: 21px;
+    width: 19px;
+}
+.soc-fb{
+    background: url('../images/icons/icon-fb.png');
+    display: inline-block;
+    background-repeat: no-repeat;
+    height: 22px;
+    width: 10px;
+}
+.soc-inst{
+    background: url('../images/icons/icon-inst.png');
+    display: inline-block;
+    background-repeat: no-repeat;
+    height: 21px;
+    width: 22px;
+}
+.soc-tvit{
+    background: url('../images/icons/icon-tvit.png');
+    display: inline-block;
+    background-repeat: no-repeat;
+    height: 20px;
+    width: 21px;
+}
+.soc-glus{
+    background: url('../images/icons/icon-gplus.png');
+    display: inline-block;
+    background-repeat: no-repeat;
+    height: 23px;
+    width: 27px;
+}
+.soc-yt{
+    background: url('../images/icons/icon-yt.png');
+    display: inline-block;
+    background-repeat: no-repeat;
+    height: 25px;
+    width: 25px;
+}
+
+.main-menu .menu-content a{
+    text-transform: uppercase;
+    color:white;
+    text-decoration: none;
+    margin-left: 32px;
+    font-family: "ProximaNova";
+    line-height: 42px;
+    position: relative;
+    z-index:30;
+}
+.soc-vk:hover, .soc-vk-footer:hover{
+    background: url('../images/icons/icon-vk-hover.png');
+
+}
+.soc-fb:hover, .soc-fb-footer:hover{
+    background: url('../images/icons/icon-fb-hover.png');
+
+}
+.soc-inst:hover, .soc-inst-footer:hover{
+    background: url('../images/icons/icon-inst-hover.png');
+
+}
+.soc-tvit:hover, .soc-tvit-footer:hover{
+    background: url('../images/icons/icon-tvit-hover.png');
+    background-repeat: no-repeat;
+}
+
+.soc-glus:hover, .soc-glus-footer:hover{
+    background: url('../images/icons/icon-gplus-hover.png');
+
+}
+.soc-yt:hover, .soc-yt-footer:hover{
+    background: url('../images/icons/icon-yt-hover.png');
+
+}
+
+.main-menu .menu-content a:hover{
+    color:#d74b35;
+}
+.header-main .main-menu{
+    width: 100%;
+    height: 43px;
+    background: black;
+}
+.header-main .main-menu .menu-content{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.figure .figure-one{
+    background: url('../images/slider/figure/1.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: 20;
+    width: 37%;
+    height: 490px;
+    background-size: 100% 100%;
+    opacity: 1; 
+}
+.figure .figure-two{
+    background: url('../images/slider/figure/2.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 600px;
+    left: 0px;
+    z-index: 20;
+    width: 20%;
+    height: 350px;
+    background-size: 100% 100%;
+    opacity: 1; 
+}
+.figure .figure-three{
+    background: url('../images/slider/figure/3.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 20;
+    width: 25%;
+    height: 60%;;
+    background-size: 100% 100%;
+    opacity: 1; 
+}
+.figure .figure-four{
+    background: url('../images/slider/figure/4.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: -1px;
+    right: 0px;
+    z-index: 20;
+    width: 40%;
+    height: 101%;
+    background-size: 100% 100%;
+    opacity: 1; 
+}
+#main-page-slaider a{
+    float: left;
+}
+.main-content{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.fly-footer{
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    left: 0px;
+    top: calc(100vh - 100px);
+    background: black;
+    display: inline-block;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-width: 2px;
+    border-color: #fff;
+    z-index: 1500;
+}
+.fly-fiit-content{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btnSubmit{
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none !important;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    width: 160px;
+    background: #d74b35;
+    font-family: "ProximaNova";
+    padding: 9px 0px 10px 0px;
+    transition: 120ms linear;
+    -moz-transition: 120ms linear;
+    -webkit-transition: 120ms linear;
+    border: none;
+}
+.inputTxt{
+    padding: 11px 0px;
+    padding-left: 20px;
+    border: 1px solid #858584;
+    border-radius: 2px;
+    color: #000;
+    font-family: "ProximaNova";
+    width: 300px;
+}
+.fly-fiit-content .info .info-one, .fly-fiit-content .info .info-two{
+    display: block;
+}
+.fly-fiit-content .info .info-two{
+    font-family: "ProximaNovaLight";
+    
+}
+.fly-fiit-content .info .info-one{
+    font-weight: bold;
+}
+.fly-fiit-content .info{
+    text-transform: uppercase;
+    display: inline-block;
+    float: left;
+    color: #fff;
+    width: 200px;
+    margin-top: 25px;
+    margin-left: 100px;
+}
+.btnSubmit:hover{
+    opacity: 0.7;
+}
+.fly-fiit-content .form{
+    display: inline-block;
+    margin-top: 25px;
+}
+.about-tattoo{
+    margin-top: 38px;
+    display: inline-block;
+}
+.about-tattoo .video{
+    display: inline-block;
+    width: 50%;
+    float: left;
+}
+.about-tattoo .video .video-preview{
+    width: 100%;
+}
+.about-tattoo .about-info{
+    display: inline-block;
+    width: 40%; 
+    margin-left: 60px;
+    float: left;
+}
+.about-info .info-head{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+}
+.fly-footer{
+    /*display: none;*/
+}
+.about-curses{
+    display: inline-block;
+    width: 100%;
+    margin-top: 40px;
+}
+.about-curses-head{
+    text-transform: uppercase;
+    font-size: 23px;
+    text-align: center;
+}
+.about-curses-head .bold{
+    text-transform: uppercase;
+    font-size: 23px;
+    font-family: "ProximaNovaBold";
+}
+.curs-block{
+    display: inline-block;
+    float: left;
+    height: 158px;
+    width: 33%;
+    background: #fff;
+}
+.curs-block.grey{
+    background: #f5f5f5;
+}
+.about-curses-content{
+    display: inline-block;
+    margin-top: 20px;
+}
+.curs-block .image-curs{
+    display: inline-block;
+    height: 100%;
+    width: 115px;
+    text-align: center;
+    float: left;
+}
+.curs-block .info-curs{
+    display: inline-block;
+    width: 250px;
+    height: 100%;
+    
+}
+.curs-block .image-curs img, .info-curs .info-content{
+    transform: translateY(-50%);
+    top: 50%;
+    position: relative;
+}
+.info-content .head-curs{
+    font-weight: bold;
+    font-size: 16px;
+}
+.main-footer{
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: black;
+    margin-bottom: 100px;
+}
+.footer-content{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+}
+.footer-menu{
+    width: 40%;
+    /*height: 100%;*/
+    display: inline-block;
+    float: left;
+}
+.footer-content .left-part, .footer-content .right-part{
+    width: 50%;
+    display: inline-block;
+}
+.footer-content .left-part{
+    font-family: "ProximaNovaLight";
+}
+.footer-menu-link{
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    line-height: 2;
+    padding-left: 10px;
+}
+.footer-menu-link:hover{
+    color: #d74b35;
+}
+.footer-contact{
+    display: inline-block;
+    width: 60%;
+    float: left;
+    line-height: 2;
+}
+.social-buttons-footer a{
+    margin-right: 25px;
+}
+.soc-vk-footer{
+    background: url('../images/icons/icon-vk-foot.png');
+    display: inline-block;
+    background-repeat: no-repeat;
+    height: 21px;
+    width: 19px;
+}
+.soc-fb-footer{
+    background: url('../images/icons/icon-fb-foot.png');
+    display: inline-block;
+    background-repeat: no-repeat;
+    height: 22px;
+    width: 10px;
+}
+.soc-inst-footer{
+    background: url('../images/icons/icon-inst-foot.png');
+    display: inline-block;
+    background-repeat: no-repeat;
+    height: 21px;
+    width: 22px;
+}
+.soc-tvit-footer{
+    background: url('../images/icons/icon-tvit-foot.png');
+    display: inline-block;
+    background-repeat: no-repeat;
+    height: 20px;
+    width: 21px;
+}
+.soc-glus-footer{
+    background: url('../images/icons/icon-gplus-foot.png');
+    display: inline-block;
+    background-repeat: no-repeat;
+    height: 23px;
+    width: 27px;
+}
+.soc-yt-footer{
+    background: url('../images/icons/icon-yt-foot.png');
+    display: inline-block;
+    background-repeat: no-repeat;
+    height: 25px;
+    width: 25px;
+}
+.social-buttons-footer{
+    display: inline-block;
+    margin-top: 30px;
+}
